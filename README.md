@@ -2,8 +2,8 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Syed Ibrahim Mansoor`
+- **CCID:** `syedibr1`
 
 ## References and Resources
 
