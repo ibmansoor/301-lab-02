@@ -7,10 +7,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="409dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/city_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button_add_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD" />
+
+        <Button
+            android:id="@+id/button_delete_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DELETE" />
+    </LinearLayout>
+
+
     <ListView
         android:id="@+id/city_list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="412dp"
+        android:layout_height="660dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-1dp">
 
     </ListView>
 
