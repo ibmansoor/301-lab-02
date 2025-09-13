@@ -7,7 +7,6 @@
 
 ## References and Resources
 
-N/A
 
 ## Verbal Collaboration
 
@@ -15,5 +14,3 @@ N/A
 | ------------ | --------- |
 | `student`    | `student` |
 | `<Add more>` | `<CCID>`  |
-
-N/A (change made on lab machine)
